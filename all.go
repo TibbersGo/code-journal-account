@@ -6,18 +6,20 @@ func search(nums []int, target int) int {
 	return -1
 }
 
+// 双指针，快慢指针
 // 给你一个数组 nums 和一个值 val，你需要 原地 移除所有数值等于 val 的元素。元素的顺序可能发生改变。然后返回 nums 中与 val 不同的元素的数量。
 // 移除元素
 func removeElement(nums []int, val int) int {
 	return 0
 }
 
+// 双指针
 // 给你一个按 非递减顺序 排序的整数数组 nums，返回 每个数字的平方 组成的新数组，要求也按 非递减顺序 排序。
 func sortedSquares(nums []int) []int {
 	return nil
 }
 
-// 209.
+// 209. 滑动窗口
 // 给定一个含有 n 个正整数的数组和一个正整数 target 。
 // 找出该数组中满足其总和大于等于 target 的长度最小的 子数组 [numsl, numsl+1, ..., numsr-1, numsr] ，并返回其
 // 长度。如果不存在符合条件的子数组，返回 0。
